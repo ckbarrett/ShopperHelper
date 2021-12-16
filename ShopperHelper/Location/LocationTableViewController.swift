@@ -16,6 +16,7 @@ class LocationTableViewController: UITableViewController, CLLocationManagerDeleg
     var initializedDistances = false
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Stores"
         // For use in foreground
         self.locationManager.requestWhenInUseAuthorization()
 

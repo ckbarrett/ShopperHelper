@@ -16,6 +16,9 @@ class AddListItemViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view.
         SaveButton.isEnabled = false
         TextField.delegate = self
+        self.navigationItem.title = "Add Item"
+        let placeholderText = NSAttributedString(string: "Grocery Item", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
+        TextField.attributedPlaceholder = placeholderText
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

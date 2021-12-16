@@ -30,7 +30,8 @@ struct Location {
         return name
     }
     public func getAddress() -> String {
-        return address
+        let components = address.split(separator: ",")
+        return "\(components[0]), \(components[1])"
     }
     public func getLatitude() -> Double {
         return latitude

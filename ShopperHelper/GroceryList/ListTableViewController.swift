@@ -12,6 +12,7 @@ class ListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.leftBarButtonItem = self.editButtonItem
+        self.navigationItem.title = "Grocery List"
     }
     
     override func viewWillAppear(_ animated: Bool) {
