@@ -19,13 +19,13 @@
                     </tabBar>
                     <connections>
                         <segue destination="xH7-Wm-6g0" kind="relationship" relationship="viewControllers" id="Wl0-x3-j1A"/>
-                        <segue destination="4eO-HI-fUz" kind="relationship" relationship="viewControllers" id="5pv-3H-Qr3"/>
-                        <segue destination="Mb7-c1-YIw" kind="relationship" relationship="viewControllers" id="Xhl-e3-ojE"/>
+                        <segue destination="kDX-7g-ahV" kind="relationship" relationship="viewControllers" id="l2x-w3-XsG"/>
+                        <segue destination="uZs-mq-eRB" kind="relationship" relationship="viewControllers" id="Xhl-e3-ojE"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KFM-bC-D52" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="76.339285714285708"/>
+            <point key="canvasLocation" x="19" y="76"/>
         </scene>
         <!--List Table View Controller-->
         <scene sceneID="gkk-pE-EPS">
@@ -60,7 +60,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xSn-Gm-xzP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1683" y="76"/>
+            <point key="canvasLocation" x="1593" y="76"/>
         </scene>
         <!--Add List Item View Controller-->
         <scene sceneID="6oh-zQ-0Xn">
@@ -118,7 +118,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3355.072463768116" y="75.669642857142847"/>
+            <point key="canvasLocation" x="3172" y="76"/>
         </scene>
         <!--List-->
         <scene sceneID="bV5-jN-hdr">
@@ -139,35 +139,6 @@
             </objects>
             <point key="canvasLocation" x="802.89855072463774" y="75.669642857142847"/>
         </scene>
-        <!--Supermarkets-->
-        <scene sceneID="frL-Mk-UpR">
-            <objects>
-                <tableViewController id="4eO-HI-fUz" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="P88-nf-sMg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Supermarket" id="kTO-TP-pbQ">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kTO-TP-pbQ" id="wl0-7q-M0A">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="4eO-HI-fUz" id="3WL-sd-7BW"/>
-                            <outlet property="delegate" destination="4eO-HI-fUz" id="Cqx-Iq-Crz"/>
-                        </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" title="Supermarkets" image="cart" catalog="system" id="Rid-jl-4T2"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EUC-aN-HTu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-12" y="820"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Tpp-OE-i2a">
             <objects>
@@ -184,24 +155,72 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="snp-Jv-p2Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2526" y="76"/>
+            <point key="canvasLocation" x="2384" y="76"/>
         </scene>
-        <!--Drug Stores-->
+        <!--Location Table View Controller-->
         <scene sceneID="OPh-BN-bSA">
             <objects>
-                <tableViewController id="Mb7-c1-YIw" sceneMemberID="viewController">
+                <tableViewController id="Mb7-c1-YIw" customClass="LocationTableViewController" customModule="ShopperHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5EM-vO-uiw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Drug Store" id="G20-Bu-WyH">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocationCell" id="G20-Bu-WyH" customClass="LocationTableCell" customModule="ShopperHelper" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G20-Bu-WyH" id="SB3-rp-qIq">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKW-GB-rZH">
+                                            <rect key="frame" x="20" y="5" width="145.5" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LX0-9p-CSY">
+                                            <rect key="frame" x="175.5" y="5" width="218.5" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="au0-n0-EBG">
+                                            <rect key="frame" x="380" y="26" width="14" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="au0-n0-EBG" secondAttribute="height" multiplier="14:15" id="mKP-Zp-Ll6"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5Z-94-gph">
+                                            <rect key="frame" x="200" y="26" width="175" height="15"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="e5Z-94-gph" firstAttribute="leading" secondItem="SB3-rp-qIq" secondAttribute="leading" constant="200" id="EXQ-im-phG"/>
+                                        <constraint firstAttribute="trailing" secondItem="au0-n0-EBG" secondAttribute="trailing" constant="20" id="F6P-b0-nsF"/>
+                                        <constraint firstItem="XKW-GB-rZH" firstAttribute="top" secondItem="SB3-rp-qIq" secondAttribute="top" constant="5" id="I29-ZN-Cbr"/>
+                                        <constraint firstItem="LX0-9p-CSY" firstAttribute="leading" secondItem="XKW-GB-rZH" secondAttribute="trailing" constant="10" id="Ska-OD-hUJ"/>
+                                        <constraint firstItem="XKW-GB-rZH" firstAttribute="leading" secondItem="SB3-rp-qIq" secondAttribute="leading" constant="20" symbolic="YES" id="atz-LN-IhI"/>
+                                        <constraint firstItem="e5Z-94-gph" firstAttribute="top" secondItem="LX0-9p-CSY" secondAttribute="bottom" id="bX3-Af-nRb"/>
+                                        <constraint firstItem="LX0-9p-CSY" firstAttribute="width" secondItem="XKW-GB-rZH" secondAttribute="width" multiplier="1.5" id="c91-qn-wV5"/>
+                                        <constraint firstAttribute="trailing" secondItem="LX0-9p-CSY" secondAttribute="trailing" constant="20" id="eET-G8-9tD"/>
+                                        <constraint firstItem="au0-n0-EBG" firstAttribute="top" secondItem="e5Z-94-gph" secondAttribute="top" id="fIy-Sb-ESx"/>
+                                        <constraint firstItem="au0-n0-EBG" firstAttribute="bottom" secondItem="e5Z-94-gph" secondAttribute="bottom" id="liZ-ka-9QP"/>
+                                        <constraint firstItem="LX0-9p-CSY" firstAttribute="top" secondItem="SB3-rp-qIq" secondAttribute="top" constant="5" id="mjr-aW-Kb0"/>
+                                        <constraint firstItem="au0-n0-EBG" firstAttribute="leading" secondItem="e5Z-94-gph" secondAttribute="trailing" constant="5" id="nl8-nR-oi7"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="AddressText" destination="LX0-9p-CSY" id="Af1-ib-HsP"/>
+                                    <outlet property="DistanceText" destination="e5Z-94-gph" id="nm6-92-z5p"/>
+                                    <outlet property="NameText" destination="XKW-GB-rZH" id="br4-ch-JkH"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -209,17 +228,74 @@
                             <outlet property="delegate" destination="Mb7-c1-YIw" id="VEh-dr-EDO"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Drug Stores" image="pills" catalog="system" id="uNc-iz-0yf"/>
+                    <navigationItem key="navigationItem" id="Cq2-kA-epI">
+                        <barButtonItem key="rightBarButtonItem" title="+" id="3ZH-OI-ZYe">
+                            <connections>
+                                <segue destination="BR9-sk-wph" kind="presentation" modalPresentationStyle="fullScreen" id="5iu-T8-PDR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWX-u3-Et7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="803" y="820"/>
+            <point key="canvasLocation" x="1592.753623188406" y="819.64285714285711"/>
+        </scene>
+        <!--Add Location View Controller-->
+        <scene sceneID="8Sw-LM-Zca">
+            <objects>
+                <viewController id="BR9-sk-wph" customClass="AddLocationViewController" customModule="ShopperHelper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G3e-o9-X11">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vlV-xY-88j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwT-YN-Vs4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2383" y="820"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="Icp-gq-5c3">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kRN-ou-bEu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="kDX-7g-ahV" customClass="MapViewController" customModule="ShopperHelper" customModuleProvider="target" sceneMemberID="viewController">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="lPb-yK-xbe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </mapView>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="hKS-sT-7hz"/>
+                    <connections>
+                        <outlet property="mapView" destination="lPb-yK-xbe" id="l0I-uB-QuW"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="19" y="820"/>
+        </scene>
+        <!--Stores-->
+        <scene sceneID="eIa-FV-lhX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uZs-mq-eRB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Stores" image="cart" catalog="system" id="uNc-iz-0yf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gvu-5N-KEv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Mb7-c1-YIw" kind="relationship" relationship="rootViewController" id="i61-hi-EeP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s71-RD-Qoe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="802.89855072463774" y="819.64285714285711"/>
         </scene>
     </scenes>
     <resources>
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="list.bullet" catalog="system" width="128" height="88"/>
-        <image name="pills" catalog="system" width="128" height="104"/>
+        <image name="map" catalog="system" width="128" height="110"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

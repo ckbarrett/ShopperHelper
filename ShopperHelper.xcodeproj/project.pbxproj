@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F38D8F52761C2D900560E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D8F42761C2D900560E2F /* AppDelegate.swift */; };
 		3F38D8F72761C2D900560E2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D8F62761C2D900560E2F /* SceneDelegate.swift */; };
-		3F38D8F92761C2D900560E2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D8F82761C2D900560E2F /* ViewController.swift */; };
 		3F38D8FC2761C2D900560E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F38D8FA2761C2D900560E2F /* Main.storyboard */; };
 		3F38D8FE2761C2DB00560E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F38D8FD2761C2DB00560E2F /* Assets.xcassets */; };
 		3F38D9012761C2DB00560E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F38D8FF2761C2DB00560E2F /* LaunchScreen.storyboard */; };
@@ -18,6 +17,20 @@
 		3F38D9252761C57700560E2F /* GroceryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D9242761C57700560E2F /* GroceryModel.swift */; };
 		3F38D9272761C74500560E2F /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D9262761C74500560E2F /* ListTableViewController.swift */; };
 		3F38D92C2761C99000560E2F /* AddListItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D92B2761C99000560E2F /* AddListItemViewController.swift */; };
+		3F38D92E2761D10E00560E2F /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F38D92D2761D10E00560E2F /* GooglePlaces.framework */; };
+		3F38D9302761D15A00560E2F /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F38D92F2761D15A00560E2F /* GooglePlaces.bundle */; };
+		3F38D9332761D18400560E2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F38D9322761D18400560E2F /* CoreGraphics.framework */; };
+		3F38D9352761D18D00560E2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F38D9342761D18D00560E2F /* CoreLocation.framework */; };
+		3F38D9372761D19500560E2F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F38D9362761D19500560E2F /* libc++.tbd */; };
+		3F38D9392761D19D00560E2F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F38D9382761D19D00560E2F /* libz.tbd */; };
+		3F38D93B2761D1A700560E2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F38D93A2761D1A700560E2F /* QuartzCore.framework */; };
+		3F38D93D2761D1AE00560E2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F38D93C2761D1AE00560E2F /* UIKit.framework */; };
+		3F38D9412761D62D00560E2F /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D9402761D62D00560E2F /* LocationTableViewController.swift */; };
+		3F38D9432761E99300560E2F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D9422761E99300560E2F /* MapViewController.swift */; };
+		3F38D9452761F20E00560E2F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D9442761F20D00560E2F /* Location.swift */; };
+		3F38D9472761F27700560E2F /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D9462761F27700560E2F /* LocationModel.swift */; };
+		3F38D94A2767AD3400560E2F /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D9492767AD3400560E2F /* AddLocationViewController.swift */; };
+		3F38D94E2767C2F800560E2F /* LocationTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38D94D2767C2F800560E2F /* LocationTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +54,6 @@
 		3F38D8F12761C2D900560E2F /* ShopperHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopperHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F38D8F42761C2D900560E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F38D8F62761C2D900560E2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F38D8F82761C2D900560E2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F38D8FB2761C2D900560E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F38D8FD2761C2DB00560E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F38D9002761C2DB00560E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +67,20 @@
 		3F38D9242761C57700560E2F /* GroceryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryModel.swift; sourceTree = "<group>"; };
 		3F38D9262761C74500560E2F /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		3F38D92B2761C99000560E2F /* AddListItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListItemViewController.swift; sourceTree = "<group>"; };
+		3F38D92D2761D10E00560E2F /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		3F38D92F2761D15A00560E2F /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		3F38D9322761D18400560E2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F38D9342761D18D00560E2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F38D9362761D19500560E2F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3F38D9382761D19D00560E2F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3F38D93A2761D1A700560E2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F38D93C2761D1AE00560E2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F38D9402761D62D00560E2F /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		3F38D9422761E99300560E2F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3F38D9442761F20D00560E2F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3F38D9462761F27700560E2F /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		3F38D9492767AD3400560E2F /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		3F38D94D2767C2F800560E2F /* LocationTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F38D93D2761D1AE00560E2F /* UIKit.framework in Frameworks */,
+				3F38D93B2761D1A700560E2F /* QuartzCore.framework in Frameworks */,
+				3F38D9392761D19D00560E2F /* libz.tbd in Frameworks */,
+				3F38D9372761D19500560E2F /* libc++.tbd in Frameworks */,
+				3F38D9352761D18D00560E2F /* CoreLocation.framework in Frameworks */,
+				3F38D9332761D18400560E2F /* CoreGraphics.framework in Frameworks */,
+				3F38D92E2761D10E00560E2F /* GooglePlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +122,7 @@
 				3F38D90A2761C2DB00560E2F /* ShopperHelperTests */,
 				3F38D9152761C2DB00560E2F /* ShopperHelperUITests */,
 				3F38D8F22761C2D900560E2F /* Products */,
+				3F38D9312761D18400560E2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +139,13 @@
 		3F38D8F32761C2D900560E2F /* ShopperHelper */ = {
 			isa = PBXGroup;
 			children = (
+				3F38D92F2761D15A00560E2F /* GooglePlaces.bundle */,
+				3F38D92D2761D10E00560E2F /* GooglePlaces.framework */,
 				3F38D8F42761C2D900560E2F /* AppDelegate.swift */,
 				3F38D8F62761C2D900560E2F /* SceneDelegate.swift */,
-				3F38D8F82761C2D900560E2F /* ViewController.swift */,
 				3F38D8FA2761C2D900560E2F /* Main.storyboard */,
+				3F38D9422761E99300560E2F /* MapViewController.swift */,
+				3F38D9482761F27D00560E2F /* Location */,
 				3F38D9282761C75000560E2F /* GroceryList */,
 				3F38D8FD2761C2DB00560E2F /* Assets.xcassets */,
 				3F38D8FF2761C2DB00560E2F /* LaunchScreen.storyboard */,
@@ -143,6 +180,31 @@
 				3F38D9262761C74500560E2F /* ListTableViewController.swift */,
 			);
 			path = GroceryList;
+			sourceTree = "<group>";
+		};
+		3F38D9312761D18400560E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F38D93C2761D1AE00560E2F /* UIKit.framework */,
+				3F38D93A2761D1A700560E2F /* QuartzCore.framework */,
+				3F38D9382761D19D00560E2F /* libz.tbd */,
+				3F38D9362761D19500560E2F /* libc++.tbd */,
+				3F38D9342761D18D00560E2F /* CoreLocation.framework */,
+				3F38D9322761D18400560E2F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F38D9482761F27D00560E2F /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				3F38D9402761D62D00560E2F /* LocationTableViewController.swift */,
+				3F38D94D2767C2F800560E2F /* LocationTableCell.swift */,
+				3F38D9492767AD3400560E2F /* AddLocationViewController.swift */,
+				3F38D9442761F20D00560E2F /* Location.swift */,
+				3F38D9462761F27700560E2F /* LocationModel.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F38D9302761D15A00560E2F /* GooglePlaces.bundle in Resources */,
 				3F38D9012761C2DB00560E2F /* LaunchScreen.storyboard in Resources */,
 				3F38D8FE2761C2DB00560E2F /* Assets.xcassets in Resources */,
 				3F38D8FC2761C2D900560E2F /* Main.storyboard in Resources */,
@@ -275,12 +338,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F38D8F92761C2D900560E2F /* ViewController.swift in Sources */,
 				3F38D9252761C57700560E2F /* GroceryModel.swift in Sources */,
 				3F38D8F52761C2D900560E2F /* AppDelegate.swift in Sources */,
 				3F38D92C2761C99000560E2F /* AddListItemViewController.swift in Sources */,
+				3F38D9452761F20E00560E2F /* Location.swift in Sources */,
+				3F38D9412761D62D00560E2F /* LocationTableViewController.swift in Sources */,
 				3F38D9272761C74500560E2F /* ListTableViewController.swift in Sources */,
 				3F38D8F72761C2D900560E2F /* SceneDelegate.swift in Sources */,
+				3F38D94A2767AD3400560E2F /* AddLocationViewController.swift in Sources */,
+				3F38D9472761F27700560E2F /* LocationModel.swift in Sources */,
+				3F38D9432761E99300560E2F /* MapViewController.swift in Sources */,
+				3F38D94E2767C2F800560E2F /* LocationTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,11 +526,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZGT52L3AU2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShopperHelper",
+				);
 				INFOPLIST_FILE = ShopperHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.ckbarret.ShopperHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -477,11 +550,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZGT52L3AU2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShopperHelper",
+				);
 				INFOPLIST_FILE = ShopperHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.ckbarret.ShopperHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
